@@ -91,21 +91,80 @@ padding-top: 10%;
 
 }
 
-.second-container{
+.first-div{
+    position:relative;
+    border:1px solid green;
+}
 
-    background-color: rgb(116, 108, 108);
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-
+.first-p{
 
 }
 
+.second-container{
+    width:100%;
+    background-color: rgb(116, 108, 108);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .within-second{
-    height: 50%;
+    box-sizing: border-box;
     width: 50%;
     border: 1px solid black; 
+
+}
+
+
+
+.third-container{
+    width:100%;
+    background-color: rgb(116, 108, 108);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.in-third-container{
+    box-sizing: border-box;
+    width: 33%;
+    border: 1px solid black; 
+}
+
+
+
+.fourth-container{
+    width:100%;
+    background-color: rgb(116, 108, 108);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.in-fourth-container-1{
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid black; 
+}
+.in-fourth-container-2{
+    box-sizing: border-box;
+    width: 70%;
+    border: 1px solid black; 
+}
+.rounded-div-1{
+    box-sizing: border-box;
+    width: 80%;
+    border: 1px solid black; 
+    height: 50%;
+}
+
+.rounded-div-2{
+    box-sizing: border-box;
+    width: 80%;
+    border: 1px solid black; 
+    height: 50%;
 }
 
 
