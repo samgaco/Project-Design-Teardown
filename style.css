@@ -93,29 +93,93 @@ padding-top: 10%;
 
 .first-div{
     position:relative;
-    border:1px solid green;
+    height: 8em;
+
+    background-image: linear-gradient(to right , rgb(104, 104, 104) 50% , rgb(161, 161, 161) 50%);
 }
 
 .first-p{
 
+    font-size: 1.7em;
+    text-align: center;
+    position: relative ;
+    bottom: -30%;
+    left: 40%;
+    background: white;
+    width: 25%;
+
 }
+
+.first-p-2{
+
+    font-size: 1.7em;
+    text-align: center;
+    position: relative ;
+    bottom: -30%;
+    left: 47%;
+    background: white;
+    width: 8%;
+
+
+}
+
+
 
 .second-container{
     width:100%;
     background-color: rgb(116, 108, 108);
-    height: 500px;
+    height: 64em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.within-second{
+.within-second-1{
     box-sizing: border-box;
     width: 50%;
     border: 1px solid black; 
+    
+    background-color: rgb(104, 104, 104);
+
+    height: 65%;
+
+}
+.within-second-3{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black; 
+    
+    background-color: rgb(85, 85, 85);
+    height: 35%;
 
 }
 
+
+.within-second-2{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    
+    background-color: rgb(161, 161, 161);
+    height: 65%;
+
+
+
+}
+.within-second-4{
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    
+    background-color: rgb(104, 104, 104);
+
+    height: 35%;
+
+
+
+
+
+}
 
 
 .third-container{
