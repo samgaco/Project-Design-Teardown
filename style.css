@@ -514,9 +514,7 @@ padding-top: 10%;
 
 .see-curated{
 font-size: 1em;
-position: relative;
-left: 38%;
-top: 4%;
+
 text-decoration:underline grey;
 
 }
@@ -526,10 +524,24 @@ text-decoration:underline grey;
 footer{
     height: 33em;
     background: rgb(78, 78, 78);
+    padding:2%;
+}
+.list-footer-div{
+
+    margin-left:25%;
 }
 
 .list-footer{
+    list-style-type: circle;
+    
+    background-color: #4CAF50;
 
-    display: inline;
 }
+
+.list-footer li{
+    float: left;
+    margin: 1%;
+}
+
+
 
