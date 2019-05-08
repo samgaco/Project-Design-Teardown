@@ -298,3 +298,67 @@ padding-top: 10%;
     background: rgb(119, 102, 102);
 
 }
+
+/* 9 container "community links*/
+
+.community-links{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:grey;
+    height: 80em;
+    box-sizing: border-box;
+}
+
+
+
+.person-of-week.big{ 
+    background:grey;
+    width:100%;
+    height: 25%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.person-of-week-img-div{
+    width:30%
+
+}
+.person-of-week-article-div{
+    width:70%
+}
+.person-of-week-h3{
+
+}
+.person-of-week-article{
+
+}
+
+
+.person-of-week-small{ 
+    background:grey;
+    width:50%;
+    height: 25%;
+    border:1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.person-of-week-small-img-div{
+    width:30%
+
+}
+.person-of-week-small-article-div{
+    width:70%
+}
+.person-of-week-small-h3{
+
+}
+.person-of-week-small-article{
+
+}
