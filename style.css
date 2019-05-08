@@ -53,7 +53,7 @@ table {
 
 .header{
     display:flex;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(131, 129, 129);
     width: 100%;
     height: 10em;
 
@@ -66,16 +66,15 @@ table {
 }
 #s-m-icon{
     display:block;
-    width:50%;
-    margin:auto;
+    width:40%;
+    margin:10% auto;
 }
 
 .nav-header{
 
     height: 100%;
     width: 65%;
-    background: rgb(216, 216, 216);
-    
+    background-color: rgb(131, 129, 129);    
 
 }
 
@@ -85,21 +84,74 @@ table {
     height: 100%;
     width: 20%;
     font-size: 1.8em;
-
-    border: 1px solid black;
     box-sizing: border-box;
     text-align: center;
     display: inline-block; 
+    padding: 40% auto;
 
 }
 
 .btn-nav a{
+text-decoration: none;
+color: black;
+}
 
-padding-top: 10%;   
+.btn-nav a:hover{
+
+    color: white;
 
 
 
 }
+
+
+
+.btn-nav li{
+
+    position: relative;
+    top: 40%;
+}
+.btn-nav h4{
+font-size: 0.5em;
+}
+
+/* Search bar */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 35%;
+    background: #f1f1f1;
+    margin-left: 15%;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(156, 156, 156);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #737374;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  /*after header*/
 
 .first-div{
     position:relative;
@@ -188,6 +240,61 @@ padding-top: 10%;
 
 
 }
+
+
+/* text within second container */
+
+.text-second-1{
+
+    height: 50%;
+    width: 80%;
+    background: #4CAF50;
+
+    margin: 20% 15% auto auto;
+}
+
+.text-second-2{
+
+    height: 50%;
+    width: 80%;
+    background: #4CAF50;
+
+    margin: 20% 15% auto auto;
+}
+
+.text-second-3{
+
+    height: 75%;
+    width: 80%;
+    background: #4CAF50;
+
+    margin: 5% 15% auto auto;
+}
+.text-second-4{
+
+    height: 75%;
+    width: 80%;
+    background: #4CAF50;
+
+    margin: 5% 15% auto auto;
+}
+
+
+.photo-wrote{
+
+    height: 25%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.photo-in-second{
+
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+}
+
+
 
 
 .third-container{
