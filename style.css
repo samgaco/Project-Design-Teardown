@@ -455,8 +455,18 @@ form.example input[type=text] {
 .community-links-left-bar{
     height: 100%;
     width:4%;
-    background:rgb(153, 30, 81);
+    background:rgb(31, 30, 30);
 }
+.community-links-left-bar-h2{
+    writing-mode: vertical-rl; 
+    margin:1em;
+    position:relative;
+    bottom:1.3em;
+
+    
+}
+
+ 
 .right-div{
     width:96%;
     display:flex;
@@ -483,25 +493,36 @@ form.example input[type=text] {
 
 .person-of-week-img-div{
     box-sizing: border-box;
-    border:1px solid black;
+
     width:30%;
 
+}
+.person-of-week-img{
+    max-width:40%;
+    
+    border-radius: 1em;
+    margin-left:5em;
+    margin-top:2em;
+}
+.person-of-week-img.first{ 
+    margin-left:10em;
+    margin-top:2em;
 }
 .person-of-week-article-div{
     width:70%;
     box-sizing: border-box;
-    border:1px solid black;
+    
 }
 .person-of-week-h3{
     box-sizing: border-box;
+    margin :1.5em 0em;
     
-    border:1px solid black;
 
 }
 .person-of-week-article{
     box-sizing: border-box;
-    border:1px solid black;
-
+    
+    
 }
 
 
@@ -509,8 +530,7 @@ form.example input[type=text] {
     background:grey;
     width:50%;
     height: 25%;
-    border:1px solid rgb(0, 0, 0);
-    box-sizing: border-box;
+        box-sizing: border-box;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -520,33 +540,31 @@ form.example input[type=text] {
     width:30%;
     box-sizing: border-box;
     
-    border:1px solid black;
-
+   
 }
 .person-of-week-small-article-div{
     width:70%;
     box-sizing: border-box;
     
-    border:1px solid black;
+    
 }
 
 .shared-title{
     box-sizing: border-box;
-    
-    border:1px solid black;
+    margin :1.5em 0em;
+   
 
 
 }
 .person-of-week-small-h3{
     box-sizing: border-box;
+    margin :1.5em 0em;
     
-    border:1px solid black;
 
 }
 .person-of-week-small-article{
-    box-sizing: border-box;
+    box-sizing: border-box;    
     
-    border:1px solid black;
 }
 
 
