@@ -193,7 +193,7 @@ padding-top: 10%;
 .third-container{
     width:100%;
     background-color: rgb(116, 108, 108);
-    height: 500px;
+    height: em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -202,19 +202,39 @@ padding-top: 10%;
 .in-third-container{
     box-sizing: border-box;
     width: 33%;
+    height: 30.4em;
     border: 1px solid black; 
 }
 
+.in-sixth-container{
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black; 
+    height: 33.4em;
+    margin: 12% auto auto 0%;
+
+
+
+}
 
 
 .fourth-container{
     width:100%;
-    background-color: rgb(116, 108, 108);
-    height: 500px;
+    height: 38em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.sixth-container{
+    width:100%;
+    height: 38em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .in-fourth-container-1{
     box-sizing: border-box;
     width: 30%;
@@ -225,19 +245,56 @@ padding-top: 10%;
     width: 70%;
     border: 1px solid black; 
 }
+
+
 .rounded-div-1{
     box-sizing: border-box;
-    width: 80%;
+    width: 75%;
     border: 1px solid black; 
-    height: 50%;
+    height: 40%;
+    border-radius: 1em;
+    margin: 28% 4% auto auto;
+    background: rgb(221, 218, 218);
 }
 
 .rounded-div-2{
     box-sizing: border-box;
     width: 80%;
     border: 1px solid black; 
-    height: 50%;
+    height: 85%;
+    border-radius: 1em;
+    margin: 7% auto 3% 2%;
+    background: rgb(100, 96, 96);
+
+}
+
+.in-sixth-rounded-div-2{
+    box-sizing: border-box;
+    width: 90%;
+    border: 1px solid black; 
+    height: 85%;
+    border-radius: 1em;
+    margin: 6% auto 3% 0%;
+    background: rgb(100, 96, 96);
+
 }
 
 
+/* 7 container "Latest Articles */
 
+.latest-articles{
+
+    height: 10em;
+    background: grey;
+
+}
+
+
+/* 8 container "Blue picture */
+
+.blue-picture{
+
+    height: 45em;
+    background: rgb(119, 102, 102);
+
+}
