@@ -389,10 +389,53 @@ section h4{
 
 .in-third-container{
     box-sizing: border-box;
-    width: 33%;
+    width: 32%;
     height: 30.4em;
     border: 1px solid black; 
 }
+
+.latest-posts-bar{
+
+    width: 4%;
+    background: #4CAF50;
+}
+
+.bottom-left-square{
+    width: 25%;
+    height: 20%;
+    background: blue;
+    float: left;
+    margin-top: 34%;
+    position: relative;
+    
+}
+
+.article-third{
+    background: rgb(228, 101, 228);
+    height: 40%;
+    padding:7%;
+}
+.article-third h3{
+    font-size: 0.6em;
+    color: rgb(87, 84, 84);
+    padding-bottom: 1%;
+}
+.article-third h2{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-decoration: underline;
+    padding-bottom: 4%;
+}
+
+.article-third h4{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+    padding-bottom: 4%;
+}
+
+/* end of third container */
 
 .in-sixth-container{
     box-sizing: border-box;
