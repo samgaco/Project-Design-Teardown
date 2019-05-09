@@ -380,8 +380,6 @@ section h4{
 
 .third-container{
     width:100%;
-    background-color: rgb(116, 108, 108);
-    height: em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -391,7 +389,6 @@ section h4{
     box-sizing: border-box;
     width: 32%;
     height: 30.4em;
-    border: 1px solid black; 
     position: relative;
 
   
@@ -400,7 +397,6 @@ section h4{
 .latest-posts-bar{
 
     width: 4%;
-    background: #4CAF50;
 }
 
 .bottom-left-square{
@@ -414,7 +410,6 @@ section h4{
 
 
 .article-third{
-    background: rgb(228, 101, 228);
     height: 40%;
     padding:7%;
 }
@@ -443,7 +438,6 @@ section h4{
 .in-sixth-container{
     box-sizing: border-box;
     width: 100%;
-    border: 1px solid black; 
     height: 33.4em;
     margin: 12% auto auto 0%;
 
@@ -467,7 +461,6 @@ section h4{
 .in-fourth-container-1{
     box-sizing: border-box;
     width: 30%;
-    border: 1px solid black; 
 } 
 
 
@@ -475,7 +468,6 @@ section h4{
 .rounded-div-1{
     box-sizing: border-box;
     width: 75%;
-    border: 1px solid black; 
     height: 40%;
     border-radius: 1em;
     margin: 28% 4% auto auto;
@@ -485,11 +477,52 @@ section h4{
 .rounded-div-2{
     box-sizing: border-box;
     width: 80%;
-    border: 1px solid black; 
     height: 85%;
     border-radius: 1em;
     margin: 7% auto 3% 2%;
     background: rgb(100, 96, 96);
+
+}
+
+.main-text-in-round h2{
+
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+.main-text-in-round p{
+
+    color: white;
+    font-size: 1.1em;
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    padding: 10%;
+}
+
+.blue-in-round-btn{
+    height: 35%;
+    width: 50%;
+    background-color: rgb(240, 240, 240); /* Green */
+    border: none;
+    color: rgb(121, 121, 121);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1em;
+    position: relative;
+    margin-bottom: 20%;
+
+  
 
 }
 
@@ -500,7 +533,6 @@ section h4{
     display: flex;
     height: 40%;
     width: 100%;
-    background: #4CAF50;
     align-content: center;
 
 
@@ -513,15 +545,73 @@ section h4{
 }
 
 .main-text-in-round{
-
+    box-sizing: border-box;
     height: 35%;
-    background: peru;
+    text-align: center;
+    position: relative;
+
+
+
 }
+
 
 .button-in-round{
 
     height: 25%;
-    background: rgb(240, 85, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mini-button{
+
+        height: 20%;
+        width: 50%;
+        background-color: rgb(161, 161, 161); /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+
+
+}
+
+
+/* inside small rounded container in 4 section */
+
+.lower-mini-rounded{
+
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-mini-rounded h2{
+
+    align-content: center;
+    font-size: 1.2em;
+    color: white;
+    position: absolute;
+    right: -1%;
+    left: 15%;
+    margin-left: -10%;
+
+}
+
+.upper-mini-rounded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 65%;
 }
 
 
@@ -532,7 +622,6 @@ section h4{
     box-sizing: border-box;
     width: 33.33%;
     height: 30.4em;
-    border: 1px solid black; 
     position: relative;
 
   
@@ -555,10 +644,8 @@ section h4{
     box-sizing: border-box;
     width: 33%;
     height: 30.4em;
-    border: 1px solid black; 
     position: relative;
 
-    background: #4CAF50;
 
     position: absolute;
     bottom: 10%;
@@ -571,7 +658,6 @@ section h4{
 .in-sixth-container-2{
     box-sizing: border-box;
     width: 70%;
-    border: 1px solid black; 
     position: relative;
     right: -30%;
 }
@@ -580,7 +666,6 @@ section h4{
 .in-sixth-rounded-div-2{
     box-sizing: border-box;
     width: 90%;
-    border: 1px solid black; 
     height: 85%;
     border-radius: 1em;
     margin: 6% auto 3% 4.9%;
@@ -592,16 +677,25 @@ section h4{
  .in-fourth-container-2{
     box-sizing: border-box;
     width: 70%;
-    border: 1px solid black; 
 } 
 
 /* 7 container "Latest Articles */
 
 .latest-articles{
-
     height: 10em;
-    background: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.latest-link{
+    text-decoration: none;
+   color:black;
+   padding-bottom: 0.7%;
+   border-bottom: 3px solid black;
+    
+    
 }
 
 
@@ -610,7 +704,7 @@ section h4{
 .blue-picture{
 
     height: 45em;
-    background: rgb(119, 102, 102);
+    background: rgb(121, 121, 121);
     background-image: url(images/space-cat-toronto.svg);
     background-repeat: no-repeat;
     background-size: 55%, 55%;
@@ -624,11 +718,32 @@ section h4{
 .blue-text{
     height: 40%;
     width: 45%;
-    background: white;
-    border: 1px solid black;
     position: relative;
     top: 5%;
     left: 26%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.blue-text h2{
+
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+
+    padding-bottom: 2%;
+
+}
+.blue-text h3{
+
+    color: white;
+    font-size: 1.1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
 
 }
@@ -637,7 +752,7 @@ section h4{
 .blue-button{
         height: 20%;
         width: 50%;
-        background-color: #4CAF50; /* Green */
+        background-color: rgb(161, 161, 161); /* Green */
         border: none;
         color: white;
         text-align: center;
@@ -646,6 +761,7 @@ section h4{
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+        border-radius: 1em;
       
 
 }
