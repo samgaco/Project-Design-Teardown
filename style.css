@@ -54,7 +54,7 @@ table {
 
 ::selection { background: rgb(151, 151, 150); }
 
-h1, h2, h3, h4, h5, p, article, a, ul,li,span{
+h1, h2, h3, h4, h5, p, article, a, ul,li,span, button{
     font-family: 'Fredoka One', cursive;
     color: rgb(20, 20, 20)
 }
@@ -87,7 +87,15 @@ article,p{
 
     height: 100%;
     width: 65%;
-    background-color: rgb(131, 129, 129);    
+    background-color: rgb(131, 129, 129);  
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
 
 }
 
@@ -99,8 +107,8 @@ article,p{
     font-size: 1.8em;
     box-sizing: border-box;
     text-align: center;
-    display: inline-block; 
-    padding: 40% auto;
+
+    padding-top: 7%;
 
 }
 
@@ -338,14 +346,14 @@ section h4{
     height: 75%;
     width: 80%;
 
-    margin: 5% 15% auto auto;
+    margin: 3.5% 15% auto auto;
 }
 .text-second-4{
 
     height: 75%;
     width: 80%;
 
-    margin: 5% 1% auto auto;
+    margin: 3.5% 1% auto auto;
 }
 
 
@@ -1090,7 +1098,7 @@ text-align: center;
 .cureted-post-image{
     padding-bottom: 3em;
     display:block;
-    max-width: 60%;
+    max-width: 50%;
     margin:auto;
     
 
