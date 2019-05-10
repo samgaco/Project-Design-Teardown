@@ -180,7 +180,7 @@ form.example input[type=text] {
     
 }
 
-
+/* 2 - Second container styling */
 
 
 
@@ -210,6 +210,7 @@ form.example input[type=text] {
     background-color: rgb(85, 85, 85);
     height: 35%;
 
+
 }
 
 
@@ -219,6 +220,7 @@ form.example input[type=text] {
     
     background-color: rgb(161, 161, 161);
     height: 65%;
+
 
 
 
@@ -274,7 +276,16 @@ section h2{
     color: white;
 }
 
-.comment-second{
+.comment-second-up{
+    height: 10%;
+    width: 25%;
+    position: relative;
+    bottom: 7%;
+    left: 6%;
+
+}
+
+.comment-second-down{
     height: 10%;
     width: 25%;
     position: relative;
@@ -304,7 +315,7 @@ section h4{
     height: 50%;
     width: 80%;
 
-    margin: 20% 7% auto auto;
+    margin: 20% 1% auto auto;
 }
 
 .text-second-3{
@@ -319,7 +330,7 @@ section h4{
     height: 75%;
     width: 80%;
 
-    margin: 5% 7% auto auto;
+    margin: 5% 1% auto auto;
 }
 
 
@@ -467,6 +478,9 @@ section h4{
 
 .rounded-div-1{
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 75%;
     height: 40%;
     border-radius: 1em;
@@ -534,6 +548,7 @@ section h4{
     height: 40%;
     width: 100%;
     align-content: center;
+    padding-top: 5%;
 
 
 
@@ -587,8 +602,8 @@ section h4{
 /* inside small rounded container in 4 section */
 
 .lower-mini-rounded{
-
-    height: 35%;
+    margin-bottom: 20%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -602,6 +617,7 @@ section h4{
     position: absolute;
     right: -1%;
     left: 15%;
+    top: 70%;
     margin-left: -10%;
 
 }
@@ -1081,7 +1097,9 @@ section h4{
     justify-content:center;
     align-items: center;
 }
-/* 11 container 'curated posts'*/
+
+
+/* 12 container 'footer'*/
 
 
 footer{
@@ -1090,15 +1108,29 @@ footer{
     background: rgb(78, 78, 78);
     padding:2%;
 }
+
+.browse-title{
+ height: 20%;
+ background-color: rgb(249, 130, 253);
+ width: 100%; }
+
+
 .list-footer-div{
 
-    margin-left:25%;
+    background: #a8a8f7;
+    height: 40%;
+    padding: 2% 10% 2% 10%;
+    box-sizing: border-box;
+
+    display: block;
+    align-items: center;
 }
 
 .list-footer{
-    list-style-type: circle;
-    
-    background-color: #4CAF50;
+    font-size: 1.2em;
+    list-style-type: none;
+
+
 
 }
 
@@ -1107,5 +1139,24 @@ footer{
     margin: 1%;
 }
 
+.smashing-data{
 
+    height: 22%;
+    background: #4CAF50;
+}
+
+.footer-navbar{
+    height: 22%;
+    background: rgb(252, 56, 56);
+
+    display: flex;
+    flex-direction: row;
+align-items: center;
+padding-left: 22%;
+}
+
+
+.footer-navbar{
+   
+}
 
