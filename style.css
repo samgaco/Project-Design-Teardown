@@ -50,6 +50,16 @@ table {
 
 /* end of reset */
 
+/* universal selectors */
+
+::selection { background: rgb(151, 151, 150); }
+
+h1, h2, h3, h4, h5, p, article, a, li{
+    font-family: 'Fredoka One', cursive;
+
+}
+
+/*first container */
 
 .header{
     display:flex;
@@ -202,6 +212,8 @@ form.example input[type=text] {
 
     height: 65%;
 
+    
+
 }
 .within-second-3{
     box-sizing: border-box;
@@ -272,8 +284,8 @@ form.example input[type=text] {
 section h2{
     padding: 6%;
     font-size: 2em;
-    font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
 }
 
 .comment-second-up{
@@ -297,7 +309,7 @@ section h2{
 
 section h4{
     font-size: 1.2em;
-    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
     color: white;
 }
 
@@ -1117,6 +1129,11 @@ section h4{
     align-items: center;
 }
 
+.curated-left-bar-h2{
+writing-mode: vertical-rl; 
+margin:1em;
+position:relative;
+bottom:3.9em; }
 
 /* 12 container 'footer'*/
 
