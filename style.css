@@ -988,7 +988,7 @@ section h4{
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
-    height: 70em;
+    height: 100em;
     background: rgb(223, 223, 223);
     box-sizing: border-box;
     padding-top:1.5em;
@@ -1067,25 +1067,51 @@ section h4{
     text-align: center;
     text-decoration-line: underline;
     font-size: 2.5em;
+    color: white;
 }
 .cureted-post-p{
-    margin-bottom: 1.5em;
     text-align: center;
     font-size: 1.5em;
+    color: white;
 }
 .cureted-post-image{
-    margin-bottom: 1.5em;
-    width: 60%;
+    padding-bottom: 3em;
+    display:block;
+    max-width: 60%;
+    margin:auto;
+    
+
 }
 .cureted-post-input-div{
     margin-bottom: 1.5em;
+    display: flex;
+    height: 8%;
+    
+    justify-items: center;
+    justify-content: center;
+    
+    
 }
 .cureted-post-input{
-    margin-bottom: 1.5em;
+    border-radius: 1em 0 0 1em;
+  width:40%
+    
 }
 .cureted-post-input-button{
-    margin-bottom: 1.5em;
+    width:15%;
+    border-radius: 0 1em 1em 0;
+    border:none;
 }
+
+.cureted-post-p-down{
+    
+    width:50%;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-left:9em;
+}
+
 
 
 
@@ -1129,20 +1155,24 @@ footer{
 .list-footer{
     font-size: 1.2em;
     list-style-type: none;
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .list-footer li{
-    float: left;
     margin: 1%;
 }
 
-.smashing-data{
-
+.smashing-data {
+    box-sizing: border-box;
+    padding: 3em;
     height: 22%;
-    background: #4CAF50;
+    
+    
+}
+.smashing-data p{
+    text-align: center;
 }
 
 .footer-navbar{
