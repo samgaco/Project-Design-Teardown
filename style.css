@@ -1,0 +1,1235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* end of reset */
+
+/* universal selectors */
+
+::selection { background: rgb(151, 151, 150); }
+
+h1, h2, h3, h4, h5, p, article, a, ul,li,span, button{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(20, 20, 20)
+}
+article,p{
+    line-height: 1.3;
+;}
+
+/*first container */
+
+.header{
+    display:flex;
+    background-color: rgb(131, 129, 129);
+    width: 100%;
+    height: 10em;
+
+
+}
+.icon-div{
+    box-sizing:border-box; 
+    width:20%;
+   
+}
+#s-m-icon{
+    display:block;
+    width:40%;
+    margin:10% auto;
+}
+
+.nav-header{
+
+    height: 100%;
+    width: 65%;
+    background-color: rgb(131, 129, 129);  
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+
+}
+
+
+.btn-nav{
+    box-sizing: border-box;
+    height: 100%;
+    width: 20%;
+    font-size: 1.8em;
+    box-sizing: border-box;
+    text-align: center;
+
+    padding-top: 7%;
+
+}
+
+.btn-nav a{
+text-decoration: none;
+color: black;
+}
+
+.btn-nav a:hover{
+
+    color: white;
+
+
+
+}
+
+
+
+.btn-nav li{
+
+    position: relative;
+    top: 40%;
+}
+.btn-nav h4{
+font-size: 0.5em;
+}
+
+/* Search bar */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 35%;
+    background: #f1f1f1;
+    margin-left: 15%;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(156, 156, 156);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #737374;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  /*after header*/
+
+.first-div{
+    position:relative;
+    height: 8em;
+
+    background-image: linear-gradient(to right , rgb(104, 104, 104) 50% , rgb(161, 161, 161) 50%);
+}
+.first-h1{
+    width:100%;
+    position:absolute;
+    top:35%;
+    left:0%;
+    text-align: center;
+    font-size:2em;
+
+}
+.first-h1-span{
+    background-color:gray;
+}
+
+#h1-shadow{
+    width:30%;
+    position:absolute;
+    top:45%;
+    left:35%;
+    
+}
+
+/* 2 - Second container styling */
+
+
+
+
+.second-container{
+    width:100%;
+    background-color: rgb(116, 108, 108);
+    height: 64em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.within-second-1{
+    box-sizing: border-box;
+    width: 50%;
+    
+    background-color: rgb(104, 104, 104);
+
+    height: 65%;
+
+    
+
+}
+.within-second-3{
+    box-sizing: border-box;
+    width: 50%;
+    
+    background-color: rgb(85, 85, 85);
+    height: 35%;
+
+
+}
+
+
+.within-second-2{
+    box-sizing: border-box;
+    width: 50%;
+    
+    background-color: rgb(161, 161, 161);
+    height: 65%;
+
+
+
+
+}
+.within-second-4{
+    box-sizing: border-box;
+    width: 50%;
+    
+    background-color: rgb(104, 104, 104);
+
+    height: 35%;
+
+
+
+
+
+}
+
+/* images in second container */
+
+.in-second-img{
+
+    width: 50%;
+    margin: 7% 15% 5% 25%;
+    border-radius: 1em;
+    border: 3px solid rgb(83, 83, 83);
+
+}
+
+
+/* text within second container */
+
+.wrote-in-second{
+
+    width: 75%;
+    height: 100%;
+    color: white;
+
+
+}
+
+.wrote-in-second h3{
+
+    padding: 8%;
+    font-size: 1.4em;
+}
+
+
+section h2{
+    padding: 6%;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
+}
+
+.comment-second-up{
+    height: 10%;
+    width: 25%;
+    position: relative;
+    bottom: 7%;
+    left: 6%;
+
+}
+
+.comment-second-down{
+    height: 10%;
+    width: 25%;
+    position: relative;
+    bottom: 9%;
+    left: 6%;
+
+}
+
+
+section h4{
+    font-size: 1.2em;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.text-second-1{
+
+    height: 50%;
+    width: 80%;
+
+    margin: 20% 15% auto auto;
+    
+}
+
+.text-second-2{
+
+    height: 50%;
+    width: 80%;
+
+    margin: 20% 1% auto auto;
+}
+
+.text-second-3{
+
+    height: 75%;
+    width: 80%;
+
+    margin: 3.5% 15% auto auto;
+}
+.text-second-4{
+
+    height: 75%;
+    width: 80%;
+
+    margin: 3.5% 1% auto auto;
+}
+
+
+.photo-wrote{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-in-second{
+
+    height: 100%;
+    width: 25%;
+}
+
+
+.hastags-second{
+
+    height: 15%;
+
+}
+
+.hastags-second-down{
+
+    height: 15%;
+    margin-top: -4%;
+
+
+}
+
+.hastags-second h3{
+
+    font-weight: 1.3em;
+    color: white;
+    word-spacing: 1em;
+    margin-left: 6%;
+}
+
+.hastags-second-down h3{
+
+    font-weight: 1.3em;
+    color: white;
+    word-spacing: 1em;
+    margin-left: 6%;
+}
+
+
+
+
+
+
+/*third container */
+
+
+
+
+.third-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.in-third-container{
+    box-sizing: border-box;
+    width: 32%;
+    height: 30.4em;
+    position: relative;
+
+  
+}
+
+.latest-posts-bar{
+
+    width: 4%;
+}
+
+.bottom-left-square{
+    width: 25%;
+    height: 20%;
+    background: #3d3d3d;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}
+
+
+.article-third{
+    height: 40%;
+    padding:7%;
+}
+.article-third h3{
+    font-size: 0.6em;
+    color: rgb(87, 84, 84);
+    padding-bottom: 1%;
+}
+.article-third h2{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-decoration: underline;
+    padding-bottom: 4%;
+}
+
+.article-third h4{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+    padding-bottom: 4%;
+}
+
+/* end of third container */
+
+.in-sixth-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 33.4em;
+    margin: 12% auto auto 0%;
+
+
+
+}
+
+/* fourth container - left small rounded, right big rounded */
+
+.fourth-container{
+    width:100%;
+    height: 50em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+.in-fourth-container-1{
+    box-sizing: border-box;
+    width: 30%;
+} 
+
+
+
+.rounded-div-1{
+    padding:1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    height: 40%;
+    border-radius: 1em;
+    margin: 28% 4% auto auto;
+    background: rgb(221, 218, 218);
+}
+
+.rounded-div-2{
+    box-sizing: border-box;
+    width: 80%;
+    height: 85%;
+    border-radius: 1em;
+    margin: 7% auto 3% 2%;
+    background: rgb(100, 96, 96);
+
+}
+
+.main-text-in-round h2{
+
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.main-text-in-round p{
+
+    color: white;
+    font-size: 1.1em;
+    
+    padding: 5%;
+    margin-bottom: 1em;
+}
+
+.blue-in-round-btn{
+    height: 35%;
+    width: 50%;
+    background-color: rgb(240, 240, 240); /* Green */
+    border: none;
+    color: rgb(121, 121, 121);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1em;
+    position: relative;
+    margin-bottom: 20%;
+
+  
+
+}
+
+
+/*inside the rounded containers in the 4 section */
+/*inside the big round containers (only the first two) */
+.image-inside-round{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-content: center;
+    padding-top: 5%;
+
+
+
+}
+
+.image-inside-round img{
+
+    width: 100%;
+}
+
+.main-text-in-round{
+    box-sizing: border-box;
+    height: 35%;
+    text-align: center;
+    position: relative;
+
+
+
+}
+
+
+.button-in-round{
+
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mini-button{
+
+        height: 38%;
+        width: 60%;
+        background-color: rgb(161, 161, 161); /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+
+
+}
+
+
+/* inside small rounded container in 4 section */
+
+.lower-mini-rounded{
+    margin-bottom: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper-mini-rounded h2{
+
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    
+    
+
+}
+
+.upper-mini-rounded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 65%;
+}
+
+
+/* fifth container (articles like in the third contianer  */
+
+
+.in-fifth-container{
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 30.4em;
+    position: relative;
+
+  
+}
+
+
+/* sixth container (articles at the right side like in the third container  */
+
+.sixth-container{
+    width:100%;
+    height: 38em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.in-sixth-container{
+    box-sizing: border-box;
+    width: 33%;
+    height: 30.4em;
+    position: relative;
+
+
+    position: absolute;
+    bottom: 10%;
+
+   
+
+  
+}
+
+.in-sixth-container-2{
+    box-sizing: border-box;
+    width: 70%;
+    position: relative;
+    right: -30%;
+}
+
+
+.in-sixth-rounded-div-2{
+    box-sizing: border-box;
+    width: 90%;
+    height: 85%;
+    border-radius: 1em;
+    margin: 6% auto 3% 4.9%;
+    background: rgb(100, 96, 96);
+
+}
+
+
+ .in-fourth-container-2{
+    box-sizing: border-box;
+    width: 70%;
+} 
+
+/* 7 container "Latest Articles */
+
+.latest-articles{
+    height: 10em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.latest-link{
+    text-decoration: none;
+   color:black;
+   padding-bottom: 0.7%;
+   border-bottom: 3px solid black;
+    
+    
+}
+
+
+/* 8 container "Blue picture */
+
+.blue-picture{
+
+    height: 45em;
+    background: rgb(121, 121, 121);
+    background-image: url(images/space-cat-toronto.svg);
+    background-repeat: no-repeat;
+    background-size: 55%, 55%;
+    background-position-x: 50%;
+    background-position-y: 110%;
+
+}
+
+
+
+.blue-text{
+    height: 40%;
+    width: 45%;
+    position: relative;
+    top: 5%;
+    left: 26%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.blue-text h2{
+
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 2%;
+
+}
+.blue-text p{
+text-align: center;
+    color: white;
+    font-size: 1.1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+.blue-text h3{
+    text-align: center;
+        color: white;
+        font-size: 1.1em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    
+    
+    }
+
+
+.blue-button{
+        height: 20%;
+        width: 50%;
+        background-color: rgb(161, 161, 161); /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 1em;
+      
+
+}
+
+/* 9 container "community links*/
+
+.community-links{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(212, 211, 211);
+    box-sizing: border-box;
+    padding-bottom: 7em;
+    
+}
+.community-links-left-bar{
+    height: 100%;
+    width:4%;
+   
+}
+.community-links-left-bar-h2{
+    writing-mode: vertical-rl; 
+    margin:1em;
+    position:relative;
+    bottom:1.3em;
+
+    
+}
+ /* .community-links::before{
+    content: '------';
+    display: table;
+    box-sizing: border-box;
+    
+    border: 1px solid red;
+} */
+ 
+ 
+.right-div{
+    width:85%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    height: 80em;
+    box-sizing: border-box;
+    margin-right: 11%
+}
+
+
+.person-of-week.big{ 
+    
+    width:100%;
+    height: 20%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.person-of-week-img-div{
+    box-sizing: border-box;
+
+    width:30%;
+
+}
+.person-of-week-img{
+    max-width:40%;
+    
+    border-radius: 1em;
+    margin-left:5em;
+    margin-top:2em;
+}
+.person-of-week-img.first{ 
+    margin-left:10em;
+    margin-top:2em;
+}
+.person-of-week-article-div{
+    width:70%;
+    box-sizing: border-box;
+    
+}
+.person-of-week-h3{
+    box-sizing: border-box;
+    margin :1.5em 0em;
+    
+
+}
+.person-of-week-article{
+    box-sizing: border-box;
+    
+    
+}
+
+
+.person-of-week-small{ 
+    
+    width:50%;
+    height: 25%;
+        box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.person-of-week-small-img-div{
+    width:30%;
+    box-sizing: border-box;
+    
+   
+}
+.person-of-week-small-article-div{
+    width:70%;
+    box-sizing: border-box;
+    
+    
+}
+
+.shared-title{
+    box-sizing: border-box;
+    margin :1.5em 0em;
+   
+
+
+}
+.person-of-week-small-h3{
+    box-sizing: border-box;
+    margin :1.5em 0em;
+    
+
+}
+.person-of-week-small-article{
+    box-sizing: border-box;    
+    
+}
+
+.twitter-links-div{
+   
+    width:100%;
+    height: 4em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.twitter-link{
+    text-decoration: none;
+   color:black;
+   padding-bottom: 0.7%;
+   border-bottom: 3px solid black;
+    
+    
+}
+
+
+
+/* 10 container 'design systems'*/
+
+
+.design-systems{
+    background: rgb(150, 141, 141);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.design-systems-left-div {
+    width:50%;
+    box-sizing: border-box;
+    padding: 1.5em;
+}
+.design-systems-h3{
+    
+
+}
+.design-systems-h2{
+    margin-top: 1em;
+}
+.design-systems-p{
+    margin-top: 1em;
+}
+.design-systems-btn{
+    margin-top: 2.5em;
+    width:50%;
+    height: 4em;
+    border-radius:1em;
+}
+
+.design-systems-right-div{
+    box-sizing: border-box;
+    width:50%;
+    padding: 1.5em;
+}
+.book-image{
+    max-width:50%;
+    display: block;
+    margin:auto;
+
+    position:relative;
+    bottom: 7em; 
+}
+
+/* 11 container 'curated posts'*/
+
+.curated-posts{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    height: 100em;
+    box-sizing: border-box;
+    padding-top:1.5em;
+}
+
+
+.curated-posts-bar{
+    width: 4%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.curated-posts-right-div{
+    width: 96%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.article-curated{
+
+    height: 50%;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding:1.5em;
+
+}
+
+
+
+.guides{
+    margin-top: 1.5em;
+}
+.article-curated-h2{
+    margin-top: 1.5em;
+    font-size: 22pt;
+}
+.article-curated-ul{
+    margin-top: 1.5em;
+    margin-left:2em;
+    list-style-image: url(images/bullet.svg);
+   
+}
+.article-curated-li{
+    margin-top: 1.5em;
+}
+.article-curated-li-a{
+    color:black;
+    margin-top: 0em;
+}
+
+.round-curated{
+
+    height: 50%;
+    width: 62%;
+    box-sizing: border-box;
+    background: rgb(80, 80, 80);
+    border-radius: 2%;
+    padding: 3em;
+}
+
+.cureted-post-h2{
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 2.5em;
+    color: white;
+}
+.cureted-post-p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+.cureted-post-image{
+    padding-bottom: 3em;
+    display:block;
+    max-width: 50%;
+    margin:auto;
+    
+
+}
+.cureted-post-input-div{
+    margin-bottom: 1.5em;
+    display: flex;
+    height: 8%;
+    
+    justify-items: center;
+    justify-content: center;
+    
+    
+}
+.cureted-post-input{
+    border-radius: 1em 0 0 1em;
+  width:40%
+    
+}
+.cureted-post-input-button{
+    width:15%;
+    border-radius: 0 1em 1em 0;
+    border:none;
+}
+
+.cureted-post-p-down{
+    
+    width:50%;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-left:9em;
+}
+
+
+
+
+.see-curated{
+    display:flex;
+    width:100%;
+    height: 10em;
+    justify-content:center;
+    align-items: center;
+}
+
+.curated-left-bar-h2{
+writing-mode: vertical-rl; 
+margin:1em;
+position:relative;
+bottom:3.9em; }
+
+/* 12 container 'footer'*/
+
+
+footer{
+    clear:both;
+    height: 33em;
+    background: rgb(78, 78, 78);
+    padding:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.browse-title{
+ height: 20%;
+ width: 100%; }
+
+
+.list-footer-div{
+
+    height: 40%;
+    padding: 2% 10% 2% 10%;
+    box-sizing: border-box;
+
+    display: block;
+    align-items: center;
+}
+
+.list-footer{
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.list-footer li{
+    margin: 1%;
+}
+
+.smashing-data {
+    box-sizing: border-box;
+    padding: 3em;
+    height: 22%;
+    
+    
+}
+.smashing-data p{
+    text-align: center;
+    color: white;
+}
+
+.footer-navbar{
+    height: 22%;
+    width: 25%;
+    align-items: center;
+   
+}
+
+
+.browse-title h2{ 
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+
+}
+
+
+.footer-navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4%;
+
+}
+
+
+.footer-navbar li{
+
+    padding: 1%;
+    color: white;
+}
