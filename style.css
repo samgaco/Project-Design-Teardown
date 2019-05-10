@@ -931,10 +931,7 @@ section h4{
 }
 
 .design-systems-left-div {
-    
-    
     width:50%;
-    border:1px solid red;
     box-sizing: border-box;
     padding: 1.5em;
 }
@@ -951,15 +948,13 @@ section h4{
 .design-systems-btn{
     margin-top: 2.5em;
     width:50%;
-    height: 20%;
-    border-radius: 1em;
+    height: 4em;
+    border-radius:1em;
 }
 
 .design-systems-right-div{
     box-sizing: border-box;
     width:50%;
-    border:1px solid red;
-    box-sizing: border-box;
     padding: 1.5em;
 }
 .book-image{
@@ -1028,14 +1023,15 @@ section h4{
 }
 .article-curated-ul{
     margin-top: 1.5em;
-    list-style-type: circle;
+    margin-left:2em;
+    list-style-image: url(images/bullet.svg);
    
 }
 .article-curated-li{
-   
     margin-top: 1.5em;
 }
 .article-curated-li-a{
+    color:black;
     margin-top: 0em;
 }
 
@@ -1047,8 +1043,32 @@ section h4{
     background: rgb(80, 80, 80);
     border: 1px solid black;
     border-radius: 2%;
-    
-    
+    padding: 3em;
+}
+
+.cureted-post-h2{
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 2.5em;
+}
+.cureted-post-p{
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+.cureted-post-image{
+    margin-bottom: 1.5em;
+    width: 60%;
+}
+.cureted-post-input-div{
+    margin-bottom: 1.5em;
+}
+.cureted-post-input{
+    margin-bottom: 1.5em;
+}
+.cureted-post-input-button{
+    margin-bottom: 1.5em;
 }
 
 
